@@ -1,6 +1,56 @@
 /* Reset
-/* ---------------------------------------------------------- */
 
+/* ---------------------------------------------------------- */
+@font-face {
+    font-family: "Koruri";
+    src: url('../fonts/koruri_regular.woff');
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Koruri";
+    src: url('../fonts/koruri_regular.woff');
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Koruri";
+    src: url('../fonts/koruri_regular.woff');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Koruri";
+    src: url('../fonts/koruri_regular.woff');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Koruri";
+    src: url('../fonts/koruri_bold.woff');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Original Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Original Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Original Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Original Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Original Yu Gothic";
+    src: local("Yu Gothic Bold");
+    font-weight: bold;
+  }
 html,
 body,
 div,
@@ -77,14 +127,6 @@ summary,
 time,
 mark,
 audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-}
 body {
     line-height: 1;
 }
@@ -118,6 +160,14 @@ html {
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 *,
 *:before,
@@ -262,7 +312,7 @@ html {
 }
 body {
     color: #35373A;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Koruri", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans CJK JP", Oxygen, Ubuntu, Cantarell, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Sans Emoji";
     font-size: 1.6rem;
     line-height: 1.6em;
     font-weight: 400;
