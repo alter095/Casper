@@ -127,6 +127,14 @@ summary,
 time,
 mark,
 audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
 body {
     line-height: 1;
 }
@@ -160,14 +168,6 @@ html {
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
 }
 *,
 *:before,
