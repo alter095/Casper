@@ -93,5 +93,9 @@
         "extends": [
             "@tryghost:theme"
         ]
+    },
+    "dependencies": {
+        "browserslist": "^4.17.0",
+        "global": "^4.4.0"
     }
 }
